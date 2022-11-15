@@ -406,13 +406,13 @@ class _HomeScreenState extends State<HomeScreen> {
            BottomNavigationBarItem(
             icon: Padding(
               padding: EdgeInsets.only(left: width * 0.15),
-              child: SvgPicture.asset("icons/wallet.svg", color: index==1? blue: null),
+              child: SvgPicture.asset("icons/wallet.svg", color: index==2? blue: null),
             ),
             label: '',
             ),
             
            BottomNavigationBarItem(
-            icon: Icon(Icons.menu, color: index==1? blue: black,),
+            icon: Icon(Icons.menu, color: index==3? blue: black,),
             label: '',
             ),
           ],
