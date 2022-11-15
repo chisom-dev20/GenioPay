@@ -20,25 +20,25 @@ class IntroPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             logo(40.0, 55),
-
+      
             spacer(20),
-
+      
             Text("Practice Test", style: tstyle(16, black, FontWeight.w600)),
-
+      
             spacer(20),
-
+      
             menu("Registration-Tax", RegistrationPage(), context),
-
+      
             menu("Insurance/basic", InsurancePage(), context),
-
+      
             menu("International Transfer", InternationalTransfer(), context),
             
             menu("Home Screen", HomeScreen(), context),
-
+      
             menu("Proof Identity", ProofIdentity(), context),
-
+      
             spacer(20),
-
+      
             Align(
               alignment: Alignment.centerLeft,
               child: Padding(
